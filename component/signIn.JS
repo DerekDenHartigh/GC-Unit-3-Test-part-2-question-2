@@ -6,6 +6,7 @@ function SignInController(SignInService){
 
     ctrl.SignInService = SignInService;
 
+    // to make testing easier I hardcoded defaults:
     ctrl.name = "John Doe";
     ctrl.password = "password"
 };
